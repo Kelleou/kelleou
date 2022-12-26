@@ -1,5 +1,6 @@
 import './index.scss'
 import AnimatedLetters from "../AnimatedLetters"
+import kel3 from '../../assets/images/kel3.PNG'
 import emailjs from '@emailjs/browser'
 import {useState} from "react";
 import { useRef } from 'react';
@@ -74,6 +75,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+                <img className="kel3-container" src={kel3} alt="logo" />
             </div>
         </>
     )
