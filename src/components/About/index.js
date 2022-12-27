@@ -22,8 +22,7 @@ const About = () => {
                 <p>
                     Besides coding, I also love to draw! &#40; I drew all the little characters on this website : &#41;
                     <br/>
-                    I also love food. I love cooking new recipes at home and eating out.
-
+                    I also love food. I love cooking new recipes and eating out.
                 </p>
             </div>
 
@@ -36,6 +35,8 @@ const About = () => {
                     <br/>
                 </h2>
                 <p1>
+                    <strong>Projects: </strong> Click the github icon on the left to see all my projects!
+                    <br/>
                     <strong>Programming Languages: </strong> Java, Python, JavaScript, HTML, R, MIPS assembly 
                     <br/>
                     Currently learning: C, C++

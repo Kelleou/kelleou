@@ -31,7 +31,7 @@ const Contact = () => {
                     <h1>
                         <AnimatedLetters 
                         letterClass={letterClass}
-                        strArray={"CONTACT ME".split('')}
+                        strArray={"CONTACT".split('')}
                         idx={1}
                         /> 
                     </h1>
