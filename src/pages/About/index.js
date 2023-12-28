@@ -1,5 +1,5 @@
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../../components/AnimatedLetters'
 import { useState } from 'react'
 import kel2 from '../../assets/images/kel2.PNG'
 
