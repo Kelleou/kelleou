@@ -1,3 +1,9 @@
+:root {
+  --primary: #ADD8E6;
+  --secondary: #94ccdf;
+  --icons: #4682B4;
+  --text: #004792;
+}
 
 html{
   font-size: 62.5%;
@@ -7,8 +13,8 @@ html{
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: rgb(160, 75, 158);
-  background: #f1bde6;
+  color: var(--text);
+  background: var(--primary);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
@@ -20,3 +26,7 @@ body {
     overflow: visible;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

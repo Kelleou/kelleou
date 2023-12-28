@@ -3,7 +3,7 @@ import kel1 from '../../../assets/images/kel1.PNG'
 
 const Kel = () => {
     return (
-        <img className="kel-container" src={kel1} alt="kel" />
+        <img className="kel-container"  alt="kel" />
     )
 }
 

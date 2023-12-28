@@ -52,7 +52,7 @@ const About = () => {
                     Computer Organization &#40;CSC258&#41;
                 </p1>
             </div>
-            <img className="kel2-container" src={kel2} alt="kel" />
+            <img className="kel2-container" alt="kel" />
         </div>
     )
 }

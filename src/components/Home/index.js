@@ -17,10 +17,9 @@ const Home = () => {
                     idx={1}
                     /> 
                     ! </h1>
-                <h2>A Second-Year Computer Science Student at University of Toronto</h2>
+                <h2>A Third Year Computer Science Student at University of Toronto</h2>
                 <Link to="about" className="flat-button"> MORE ABOUT ME</Link>
             </div>
-            <Kel />
         </div>
     );
 }

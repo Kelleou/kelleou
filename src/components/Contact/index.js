@@ -75,7 +75,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <img className="kel3-container" src={kel3} alt="logo" />
+                <img className="kel3-container" alt="logo" />
             </div>
         </>
     )
