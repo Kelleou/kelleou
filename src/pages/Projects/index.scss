@@ -1,0 +1,38 @@
+.project-list {
+  height: 100vh;
+  overflow-y: auto;
+}
+.project-h1 {
+  font-family: var(--h1font);
+  font-size: 45px;
+}
+
+.project-name {
+  color: #4b9cd3;
+  font-family: var(--h2font);
+  font-size: 18px;
+}
+
+.project-description {
+    padding: 5px;
+    font-family: var(--h2font);
+  font-size: 15px;
+}
+.project-link {
+  background-color: #6699CC;
+  color: rgb(234, 243, 253);
+  font-family: var(--h2font);
+  font-size: 15px;
+}
+.project-link:hover {
+  background-color: #5072A7;
+  color: rgb(234, 243, 253);
+}
+
+.project-card {
+  background-color: rgb(234, 243, 253);
+}
+.project-card:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}

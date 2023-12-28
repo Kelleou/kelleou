@@ -13,7 +13,7 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={'ABOUT ME'.split('')}
+            strArray={'About Me'.split('')}
             idx={1}
           />
         </h1>
@@ -32,7 +32,7 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={'SKILLS & COURSES'.split('')}
+            strArray={'Skills & Courses'.split('')}
             idx={1}
           />
         </h1>
