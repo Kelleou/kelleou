@@ -1,7 +1,14 @@
-.contact-form {
-  width: 100%;
-  margin-top: 20px;
+.contact-h1, .contact-p{
+  margin-left: 20%;
+}
+.contact-p {
+  width: 50%;
+}
 
+.contact-form {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20%;
   ul {
     padding: 0;
     margin: 0;
@@ -28,10 +35,10 @@
     width: 100%;
     border: 0;
     background: #ffffff;
-    height: 50px;
-    font-size: 16px;
-    color: rgb(250, 5, 172);
-    padding: 0 20px;
+    height: 45px;
+    font-size: 18px;
+    color: var(--textColor);
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
@@ -39,105 +46,29 @@
     width: 100%;
     border: 0;
     background: #ffffff;
-    height: 50px;
-    font-size: 16px;
-    color: #9f5f89;
-    padding: 20px;
+    font-size: 18px;
+    color: var(--textColor);
+    padding: 10px;
     box-sizing: border-box;
-    min-height: 150px;
+    min-height: 120px;
   }
 
   .flat-button {
-    color: #9f5f89;
-    font-size: 11px;
+    color: var(--textColor);
+    font-size: 15px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #f79ad7;
+    border: 2px solid var(--icons);
     float: left;
     border-radius: 4px;
-    background: 0 0;
-    text-transform: uppercase;
     float: right;
     text-align: center;
     margin-right: 10px;
 
     &:hover {
-      background: #f79ad7;
+      background: var(--icons);
       color: rgb(255, 255, 255);
-    }
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .contact-form {
-    width: 80%;
-    margin-top: 20px;
-
-    ul {
-      padding: 0;
-      margin: 0;
-
-      li {
-        color: #fff;
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        margin-bottom: 10px;
-        opacity: 0;
-        overflow: hidden;
-        display: block;
-        clear: both;
-        position: relative;
-        animation: fadeInUp 2s 2s;
-        animation-fill-mode: forwards;
-      }
-
-    }
-
-    input[type='text'],
-    input[type='email'] {
-      width: 100%;
-      border: 0;
-      background: #ffffff;
-      height: 20px;
-      font-size: 15px;
-      color: rgb(250, 5, 172);
-      padding: 0 20px;
-      box-sizing: border-box;
-    }
-
-    textarea {
-      width: 100%;
-      border: 0;
-      background: #ffffff;
-      height: 50px;
-      font-size: 15px;
-      color: #9f5f89;
-      padding: 20px;
-      box-sizing: border-box;
-      min-height: 150px;
-    }
-
-    .flat-button {
-      color: #9f5f89;
-      font-size: 11px;
-      letter-spacing: 1px;
-      text-decoration: none;
-      padding: 8px 8px;
-      border: 1px solid #f79ad7;
-      float: left;
-      border-radius: 4px;
-      background: 0 0;
-      text-transform: uppercase;
-      float: right;
-      text-align: center;
-      margin-right: 10px;
-
-      &:hover {
-        background: #f79ad7;
-        color: rgb(255, 255, 255);
-      }
     }
   }
 }
