@@ -1,98 +1,39 @@
 .home-page{
-    .text-zone{
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40%;
-        max-height: 90%;
-    }
     h1{
-        color: #fff;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'Coolvetica';
+        color: var(--textColor);
+        font-size: 50px;
+        font-family: var(--h1font);
         font-weight: 400;
     }
 
-    h2{
-        color: #fffeff;
-        margin-top: 20px;
+    h2 {
+        color: var(--textColor);
+        margin-top: 10px;
         font-weight: normal;
-        font-size: 25px;
-        font-family: sans-serif;
+        font-size: 22px;
+        font-family: var(--h2font);
         letter-spacing: 1px;
         animation: fadeIn 1s, 1.8s backwards;
     }
 
     .flat-button{
-        color: #9f5f89;
+        color: var(--textColor);
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 1px;
-        font-family: sans-serif;
+        font-family: var(--h2font);
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #f79ad7;
+        border: 2px solid var(--textColor);
+        border-radius: 10px;
         margin-top: 25px;
         float: left;
         animation: fadeIn 1s 1.8 backwards;
         white-space: nowrap;
 
         &:hover {
-            background: #f79ad7;
+            background: var(--icons);
             color: rgb(255, 255, 255);
           }
     }
-}
-
-// Note to myself: to visualize this change on a laptop, use developer tools and click the mobile icon
-@media only screen and (max-width: 768px){
-    .home-page{
-        .text-zone{
-            position: absolute;
-            left: 20%;
-            top: 30%;
-            transform: translateY(-50%);
-            width: 40%;
-            max-height: 90%;
-        }
-        h1{
-            color: #fff;
-            font-size: 45px;
-            margin: 0;
-            font-family: 'Coolvetica';
-            font-weight: 400;
-        }
-    
-        h2{
-            color: #fffeff;
-            margin-top: 5px;
-            font-weight: normal;
-            font-size: 15px;
-            font-family: sans-serif;
-            letter-spacing: 1px;
-            animation: fadeIn 1s, 1.8s backwards;
-        }
-    
-        .flat-button{
-            color: #9f5f89;
-            font-size: 10px;
-            font-weight: 400;
-            letter-spacing: 1px;
-            font-family: sans-serif;
-            text-decoration: none;
-            padding: 5px 10px;
-            border: 1px solid #f79ad7;
-            margin-top: 0px;
-            float: left;
-            animation: fadeIn 1s 1.8 backwards;
-            white-space: nowrap;
-    
-            &:hover {
-                background: #f79ad7;
-                color: rgb(255, 255, 255);
-              }
-        }
-    }    
 }

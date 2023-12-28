@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter&display=swap');
 :root {
   --primary: #ADD8E6;
   --secondary: #94ccdf;
   --icons: #4682B4;
-  --text: #004792;
+  --textColor: #004792;
+  --h1font: 'Bree Serif';
+  --h2font: 'Inter'
 }
 
 html{
@@ -13,7 +16,7 @@ html{
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: var(--text);
+  color: var(--textColor);
   background: var(--primary);
   overflow: hidden;
   display: block;
